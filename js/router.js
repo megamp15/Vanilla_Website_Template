@@ -27,22 +27,22 @@ document.addEventListener("DOMContentLoaded", () => {
   */
   const routes = {
     404: {
-      template: "/pages/404.html",
+      template: "/404.html",
       title: "404",
       description: "Page not found",
     },
     "/": {
-      template: "/pages/home.html",
+      template: "/home.html",
       title: "Home",
       description: "home page",
     },
     "/index.html": {
-      template: "/pages/home.html",
+      template: "/home.html",
       title: "Home",
       description: "home page",
     },
     "/page2": {
-      template: "/pages/page2.html",
+      template: "/page2.html",
       title: "Page 2",
       description: "Page 2",
     },
